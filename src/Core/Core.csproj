@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>13</LangVersion>
+    <AssemblyName>DeepSearch.Core</AssemblyName>
+    <RootNamespace>DeepSearch</RootNamespace>
+    <Title>.NET search-oriented scraping framework</Title>
+    <Description>.NET search-oriented scraping framework</Description>
+    <Version>0.1.0</Version>
+    <Authors>gsscoder</Authors>
+    <Copyright>Copyright (C) Giacomo Stelluti Scala, 2025</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PuppeteerSharp" Version="20.1.2" />
+    <PackageReference Include="SharpX" Version="8.3.0" />
+  </ItemGroup>
+
+</Project>
