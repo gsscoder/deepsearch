@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DeepSearch
+namespace DeepSearch;
+
+public sealed class ServiceResolver
 {
-    internal class ServiceResolver
-    {
-    }
 }
